@@ -1,0 +1,38 @@
+.Home {
+  text-align: center;
+  /* background-color: black; */
+}
+
+.Home-header {
+  background-color: black;
+  /* background-image: linear-gradient(315deg, #485461 0%, #28313b 74%); */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Home-link {
+  color: #61dafb;
+}
+
+/* @keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+.Rishabh_Tyagi {
+  color: #e31b6d;
+}
+
+.photo {
+  height: 200px;
+  /* width: 200px; */
+}

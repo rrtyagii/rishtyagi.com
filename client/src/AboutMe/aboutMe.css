@@ -1,0 +1,65 @@
+/* .About-Me {
+  text-align: center;
+} */
+
+.Heading {
+  padding: 2rem 2rem;
+  /* text-align: center; */
+}
+
+.AboutMeSection {
+  background: #f2f3f4;
+  min-height: 100vh;
+  padding: 10px 10px;
+}
+
+/* .About-Me-Header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  align-content: space-between;
+  justify-content: space-between;
+} */
+
+ul {
+  list-style: none;
+}
+
+.Exprience-li {
+  position: relative;
+  margin: 0;
+  text-align: left;
+  padding-bottom: 1rem;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.Exprience-li::before {
+  content: "";
+  background-color: #4bc3ec;
+  position: absolute;
+  bottom: 0px;
+  top: 0px;
+  left: 3px;
+  width: 3px;
+}
+
+.Exprience-li::after {
+  content: "";
+  background-image: url("../images/three-dots.png");
+  background-repeat: no-repeat;
+  position: absolute;
+  left: -8px;
+  top: 2px;
+  height: 32px;
+  width: 32px;
+}
+
+.columns {
+  padding: 2rem 2rem;
+  margin: 2rem 2rem;
+  /* border: 2px solid red; */
+}
+/* .socials {
+  display: inline;
+} */

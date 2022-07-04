@@ -1,0 +1,13 @@
+.card {
+  margin: 2rem 1rem;
+  width: 18rem;
+  box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25),
+    0 0.4em 1.25em 0 rgba(0, 0, 0, 0.15) !important;
+}
+
+.display-4 {
+  padding: 2rem 2rem;
+  /* text-align: center; */
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}

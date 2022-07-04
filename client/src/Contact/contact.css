@@ -1,0 +1,29 @@
+.ContactHeading {
+  padding: 2rem 2rem;
+  /* text-align: center; */
+  font-weight: bold;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.sectionHeading {
+  background-color: black;
+  color: whitesmoke;
+}
+
+.form-group {
+  background: black;
+  color: whitesmoke;
+}
+input.transparent-input {
+  border: 2px grey !important;
+}
+
+.transparent-input {
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+input.transparent-input {
+  background-color: rgba(0, 0, 0, 0) !important;
+  border: none !important;
+}
