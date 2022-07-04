@@ -2,6 +2,7 @@ import React from 'react';
 import { Nav, Navbar, NavbarBrand} from 'react-bootstrap';
 import "./navbar.css"
 import image from "../images/letter-r(1).png"
+import Pdf from './Tyagi, Rishabh_Chicago_SWE_Resume.pdf';
 
 // function handleClick(){
 //     window.open("/Users/rishabhtyagi/Documents/somehting/Tyagi, Rishabh_Chicago_SWE_Resume.pdf", "_blank")
@@ -24,7 +25,7 @@ const Navbars=() =>{
                         Portfolio
                     </Nav.Link>
 
-                    <Nav.Link className="navlink">
+                    <Nav.Link className="navlink" href = {Pdf} target = "_blank" >
                         Resume
                     </Nav.Link>
 

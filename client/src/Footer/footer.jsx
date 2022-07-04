@@ -32,7 +32,7 @@ class Footer extends Component{
                   <i className="fab fa-instagram fa-lg white-text mr-md-5 mr-3 fa-2x"> </i>
                 </a>
                 
-                <a className="email-ic" href='#'>
+                <a className="email-ic" href="mailto:rtyagi1@hawk.iit.edu">
                   <i className="fa-solid fa-envelope white-text fa-2x"> </i>
                 </a>
                 
@@ -42,7 +42,7 @@ class Footer extends Component{
         </div>
         
         <div className="footer-copyright text-center py-3">&copy; {new Date().getFullYear()} Copyright:
-          <a href="https://www.rishtyagi.com"> RishTyagi.com</a>
+          <a href="https://www.rishtyagi.com"> Rishabh Tyagi</a>
         </div>
 
       </footer>
